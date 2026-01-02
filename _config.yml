@@ -1,4 +1,8 @@
 theme: jekyll-theme-minimal
 title: How We AI
 description: A community-driven collection of real, practical stories about how people actually use AI in their work and daily lives.
+collections:
+  use_cases:
+    output: true
+    permalink: /use-cases/:path/
 

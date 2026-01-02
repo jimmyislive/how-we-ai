@@ -1,0 +1,60 @@
+/* Base typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #24292e;
+}
+
+/* Wrapper width */
+.wrapper {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Navigation */
+.site-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eaecef;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Homepage list */
+.use-case-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.use-case-item {
+  margin-bottom: 1.75rem;
+}
+
+.use-case-item a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
+}
+
+.use-case-item a:hover {
+  text-decoration: underline;
+}
+
+.use-case-author {
+  color: #6a737d;
+  font-size: 0.9rem;
+}
+
