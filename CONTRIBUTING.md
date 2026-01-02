@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contributing
+permalink: /contributing/
 ---
 
 # Contributing to How We AI
