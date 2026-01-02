@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!-- 
 <h1>{{ site.title }}</h1>
 
 <p>
@@ -9,6 +10,8 @@ Real-world stories of how people actually use AI.
 </p>
 
 <hr />
+
+-->
 
 <ul class="use-case-list">
   {% assign posts = site.use_cases | sort: "date" | reverse %}
@@ -18,7 +21,7 @@ Real-world stories of how people actually use AI.
         {{ post.title }}
       </a><br />
       <span class="use-case-author">
-        {{ post.author }}
+        {{ post.github_handle }}
       </span>
     </li>
   {% endfor %}

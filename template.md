@@ -1,7 +1,7 @@
 ---
 title: ""
 author: ""  # real name, first name, or pseudonym
-github handle: ""
+github_handle: ""
 role: "Engineer"   # optional but encouraged
 company: "" # optional
 category: "" # must match a folder name

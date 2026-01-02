@@ -1,3 +1,8 @@
+---
+layout: default
+title: Contributing
+---
+
 # Contributing to How We AI
 
 Thank you for your interest in contributing to **How We AI** 🙌
@@ -69,7 +74,7 @@ Every submission should follow this structure (also available in `template.md`).
 ---
 title: "Using AI to build out this site"
 author: "Jimmy J."            # real name, first name, or pseudonym
-github handle: "@jimmyislive"
+github_handle: "@jimmyislive"
 role: "Engineer"   # optional but encouraged
 company: "" # optional
 category: "education"       # must match a folder name

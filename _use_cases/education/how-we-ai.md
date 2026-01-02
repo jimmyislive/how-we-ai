@@ -1,8 +1,8 @@
 ---
-layout: page
-title: "How We AI"
+layout: default
+title: "Building this site: How We AI"
 author: "Jimmy J"  # real name, first name, or pseudonym
-github handle: "@jimmyislive"
+github_handle: "@jimmyislive"
 role: "Engineer"   # optional but encouraged
 company: "" # optional
 category: "education" # must match a folder name
