@@ -1,8 +1,13 @@
-theme: jekyll-theme-minimal
+# uncommnet for localdev
+#theme: minima
+theme: jekyll-theme-minima
+author: 
+  name: Jim
+  email: jimmyislive@gmail.com
 title: How We AI
-description: A community-driven collection of real, practical stories about how people actually use AI in their work and daily lives.
-collections:
-  use_cases:
-    output: true
-    permalink: /use-cases/:path/
-
+description: >
+  A community‑driven collection of real, practical ways people use AI in their daily work and life.
+exclude:
+  - README.md
+hide_site_feed_link: true
+show_excerpts: true

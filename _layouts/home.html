@@ -2,27 +2,32 @@
 layout: default
 ---
 
-<!-- 
-<h1>{{ site.title }}</h1>
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
-<p>
-Real-world stories of how people actually use AI.
-</p>
+  {{ content }}
 
-<hr />
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+        <p><span class="post-meta">Author: <a href="https://github.com/{{ post.github_handle }}" target="_blank" rel="noopener">{{ post.github_handle }}</a> | Tools Used: {{ post.tools | join: ", " }}</span></p>
+      </li>
+      {%- endfor -%}
+    </ul>
 
--->
+  {%- endif -%}
 
-<ul class="use-case-list">
-  {% assign posts = site.use_cases | sort: "date" | reverse %}
-  {% for post in posts %}
-    <li class="use-case-item">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a><br />
-      <span class="use-case-author">
-        {{ post.github_handle }}
-      </span>
-    </li>
-  {% endfor %}
-</ul>
+</div>

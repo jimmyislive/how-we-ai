@@ -2,83 +2,26 @@
 title: ""
 author: ""  # real name, first name, or pseudonym
 github_handle: ""
-role: "Engineer"   # optional but encouraged
 company: "" # optional
-category: "" # must match a folder name
 tools:
   - ChatGPT
-frequency: "Weekly"
 date: 2026-01-01
 ---
 
-### The Problem
+# Overview
 
-Describe the real problem you were trying to solve.
-Be specific and grounded in reality.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
----
+# How We Used AI
 
-### How I Used AI
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Explain **exactly** how AI fit into your workflow.
+# Key Takeaways
 
-- Where did AI enter the process?
-- What inputs did you give it?
-- What did you trust it with vs double‑check?
+- Lorem ipsum dolor
+- Lorem ipsum dolor
+- Lorem ipsum dolor
 
----
+# Conclusion
 
-### Concrete Example
-
-Include a real interaction, prompt, or flow.
-
-```text
-"Here are the steps I followed..."
-
-
-Or describe a step‑by‑step loop.
-
----
-
-### What Worked Well
-
-* Speed improvements
-* Quality gains
-* Confidence
-* Reduced cognitive load
-
----
-
-### What Didn’t Work (or Felt Risky)
-
-Honesty matters here.
-
-* Wrong answers
-* Overconfidence
-* Hallucinations
-* Security concerns
-
----
-
-### Impact
-
-Quantify if possible.
-
-* Time saved
-* Fewer errors
-* Better decisions
-* New capability unlocked
-
----
-
-### Would I Recommend This?
-
-Yes / No / With caveats — and why.
-
----
-
-### Final Thoughts
-
-Optional reflections, lessons learned, or advice to others.
-
----
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

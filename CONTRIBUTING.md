@@ -10,10 +10,6 @@ Thank you for your interest in contributing to **How We AI** 🙌
 
 This project collects **real-world, practical examples of how people actually use AI** in their work and lives. Contributions are made via **GitHub Pull Requests**, using simple Markdown files.
 
-No marketing. No fluff. Just honest use cases.
-
----
-
 ## What We’re Looking For
 
 We welcome contributions that are:
@@ -31,8 +27,6 @@ Great examples include:
 - Health, fitness, or personal productivity
 - Things that *didn’t* work as expected
 
----
-
 ## What This Is *Not*
 
 Please do **not** submit:
@@ -43,58 +37,38 @@ Please do **not** submit:
 - ❌ Theoretical essays with no real usage  
 - ❌ Anything containing proprietary, confidential, or personal data  
 
----
+## How to Contribute
 
-## How to Contribute (Step-by-Step)
+- Fork the [Repository](https://github.com/jimmyislive/how-we-ai)
+- Create a New Markdown File in the `_posts` directory. The file should have the format `YYYY-MM-DD-<your-slug>.md`. The site is generated using [Jekyll](https://jekyllrb.com) and uses the [minima](https://jekyll.github.io/minima/) theme. 
+- Copy the template below and fill it out
+- Commit and open a **Pull Request**
+- Maintainer reviews for clarity & fit (not content policing)
+- Once merged, the site is auto updated via [Github Pages](https://docs.github.com/en/pages).
 
-1. Fork the Repository
-Click **Fork** in the top-right corner of the repo.
-
-2. Create a New Markdown File
-Choose the most relevant category and create a new file:
-
-```text
-_use_cases/<category>/<your-descriptive-slug>.md
-```
-Example:
-
-```
-_use_cases/education/how-we-ai.md
-```
-
-3. Copy the template below
-4. Fill it out honestly
-5. Commit and open a **Pull Request**
-6. Maintainer reviews for clarity & fit (not content policing)
-
-## 3. Markdown File Format (Canonical Template)
+## Markdown File Format
 
 Every submission should follow this structure (also available in `template.md`).
 
-````markdown
+```markdown
 ---
 title: "Using AI to build out this site"
-author: "Jimmy J."            # real name, first name, or pseudonym
-github_handle: "@jimmyislive"
-role: "Engineer"   # optional but encouraged
+author: "Jim"            # real name, first name, or pseudonym
+github_handle: "jimmyislive"
 company: "" # optional
-category: "education"       # must match a folder name
 tools:
   - ChatGPT
-frequency: "Weekly"
 date: 2026-01-01
 ---
 
-### The Problem
+## Overview
 
 Describe the real problem you were trying to solve.
 Be specific and grounded in reality.
 
 > Example: I wanted to gather use cases for how people use AI in their daily lives and workflows.
 
----
-
-### How I Used AI
+## How We Used AI
 
 Explain **exactly** how AI fit into your workflow.
 
@@ -102,30 +76,7 @@ Explain **exactly** how AI fit into your workflow.
 - What inputs did you give it?
 - What did you trust it with vs double‑check?
 
----
-
-### Concrete Example
-
-Include a real interaction, prompt, or flow.
-
-```text
-"Here are the steps I followed..."
-
-
-Or describe a step‑by‑step loop.
-
----
-
-### What Worked Well
-
-* Speed improvements
-* Quality gains
-* Confidence
-* Reduced cognitive load
-
----
-
-### What Didn’t Work (or Felt Risky)
+## What Didn’t Work (or Felt Risky)
 
 Honesty matters here.
 
@@ -134,9 +85,7 @@ Honesty matters here.
 * Hallucinations
 * Security concerns
 
----
-
-### Impact
+## Key Takeaways
 
 Quantify if possible.
 
@@ -145,23 +94,13 @@ Quantify if possible.
 * Better decisions
 * New capability unlocked
 
----
-
-### Would I Recommend This?
+## Conclusion
 
 Yes / No / With caveats — and why.
 
----
+```
 
-### Final Thoughts
-
-Optional reflections, lessons learned, or advice to others.
-
-````
-
----
-
-### 4. Writing Guidelines
+## Writing Guidelines
 
 - **Length:** 400–1,200 words is ideal
 - **Voice:** First‑person preferred
@@ -169,9 +108,7 @@ Optional reflections, lessons learned, or advice to others.
 - **Anonymity:** Allowed (just say so)
 - **Sensitive data:** Never include secrets, PII, or proprietary code
 
----
-
-## 6. Review Criteria (Lightweight)
+## Review Criteria (Lightweight)
 
 PRs are accepted if they are:
 
@@ -186,10 +123,8 @@ We do **not** judge:
 * Tools used
 * Writing polish
 
----
+## Full Example
 
-## 7. Full Example
-
-You can see a complete example at _use_cases/education/how-we-ai.md
+You can see a complete example at `_posts/2026-01-01-how-we-ai.md`
 
 

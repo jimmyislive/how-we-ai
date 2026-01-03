@@ -10,9 +10,8 @@ A community‑driven collection of **real, practical ways people use AI in their
 
 Contributors share stories via **GitHub pull requests**, each as a simple Markdown file. The site is then published automatically.
 
----
 
-## 1. What This Project Is (and Isn’t)
+## What This Project Is (and Isn’t)
 
 **This is:**
 
@@ -27,33 +26,24 @@ Contributors share stories via **GitHub pull requests**, each as a simple Markdo
 * Pure prompts without context
 * Thought leadership essays with no concrete usage
 
----
 
-## 2. Repository Structure
+## Repository Structure
 
 ```text
 how-we-ai/
 ├── README.md
-├── CONTRIBUTING.md
-├── use-cases/
-│   ├── engineering/
-│   ├── leadership/
-│   ├── education/
-│   │   └── how-we-ai.md
-│   ├── health/
-│   ├── creative/
-│   └── personal/
-└── site/
+├── contributing.md
+├── _posts/
+    └── YYYY-MM-DD-<slug>.md
+|── _includes/
+|── _layouts/
 ```
 
 Each **use case = one Markdown file**.
 
----
 
-## 8. Philosophy
+## Philosophy
 
 > This project is about **how people actually use AI**, not how vendors say they should.
 
-Messy. Human. Imperfect. Useful.
-
-Yes, there is a lot of hype around AI. The challenge with AI today is not weather it is useful or not, but "how" it is providing value. Everyone keeps talking about how its going to change the world without getting into specifics. A lot seems like fluff. The more use cases we can identify and learn from, the better chances of AI being a net positive, for everyone. 
+Yes, there is a lot of hype around AI. The challenge with AI today is not weather it is useful or not, but "how" it is providing value. Everyone keeps talking about how its going to change the world without getting into specifics. A lot seems like fluff or aspirational. The more use cases we can identify and learn from, the better chances of AI being a net positive, for everyone. 
