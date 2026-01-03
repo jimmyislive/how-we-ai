@@ -1,6 +1,11 @@
 # uncommnet for localdev
 #theme: minima
-theme: jekyll-theme-minima
+#theme: jekyll-theme-minima
+
+plugins:
+  - jekyll-remote-theme
+remote_theme: jekyll/minima
+
 author: 
   name: Jim
   email: jimmyislive@gmail.com
