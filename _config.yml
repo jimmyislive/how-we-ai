@@ -2,10 +2,11 @@
 #theme: minima
 #theme: jekyll-theme-minima
 
-plugins:
-  - jekyll-remote-theme
-remote_theme: jekyll/minima
+#plugins:
+#  - jekyll-remote-theme
+#remote_theme: jekyll/minima
 
+theme: minima
 author: 
   name: Jim
   email: jimmyislive@gmail.com
