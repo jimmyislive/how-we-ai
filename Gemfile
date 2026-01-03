@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-gem "minima", "~> 2.5"
+
+# uncomment for localdev. Then run `bundler install`
+#gem "minima", "~> 2.5"
 
