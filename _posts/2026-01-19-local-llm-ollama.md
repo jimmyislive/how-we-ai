@@ -22,11 +22,11 @@ Follow instructions on their website as to how to install it. Once installed, yo
 
 Once done, you now have a LLM working 100% locally. 
 
-![Ollama](/_assets/img/ollama.png)
+![Ollama]({{"/assets/img/ollama.png" | relative_url }})
 
 You can turn the privacy settings on such that it does not connect to the internet at all.
 
-![Privacy Settings](/_assets/img/ollama_airplane_mode.png)
+![Privacy Settings]({{"/assets/img/ollama_airplane_mode.png" | relative_url }})
 
 
 # Key Takeaways
