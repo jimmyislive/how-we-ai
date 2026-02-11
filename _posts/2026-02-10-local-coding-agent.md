@@ -25,9 +25,11 @@ Here is a simple rust program with an error:
 
 ![Error in Sample program]({{"/assets/img/minigrep_error.png" | relative_url }})
 
-And here is a prompt I gave continue to fix this error:
+Here is a prompt I gave Continue to fix this error and the corresponding suggestion from the model:
 
-![Continue Prompt]({{"/assets/img/continue_suggestion.png" | relative_url }})
+![Continue Prompt]({{"/assets/img/continue_prompt.png" | relative_url }})
+
+![Continue Suggestion]({{"/assets/img/continue_suggestion.png" | relative_url }})
 
 After applying the suggestion, we get a clean running program:
 
@@ -36,7 +38,7 @@ After applying the suggestion, we get a clean running program:
 
 # Key Takeaways
 
-- Getting a local agent running without havign to worry about tokens or their cost is a very convenient
+- Getting a local agent running without havign to worry about tokens or their cost is very convenient
 - The paid models would probably be better, but for personal projects, this cost / convenience tradeoff is fine
 - Everything is running on localdev, so you can work on it even while offline !
 
