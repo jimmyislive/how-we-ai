@@ -63,6 +63,8 @@ date: 2026-01-01
 
 ## Overview
 
+*NOTE*: The structure here is a suggestion. If you want to use different heading / formats etc, go ahead !
+
 Describe the real problem you were trying to solve.
 Be specific and grounded in reality.
 
